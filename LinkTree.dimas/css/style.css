@@ -1,0 +1,61 @@
+body
+{
+    background: darkmagenta;
+}
+.intro
+{
+    text-align: center;
+}
+b
+{
+    color: white;
+}
+img
+{
+    width: 5cm;
+    height: 5cm;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 3px 3px 6px gray;
+    padding: 5px;
+    background: white;
+    transition: 0.2s;
+    opacity: 89%;
+}
+img:hover
+{
+    transform: scale(1.08);
+    opacity: 100%;
+    box-shadow: 5px 5px 10px maroon;
+}
+.profile
+{
+    color: white;
+}
+.sosmed > a
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    line-height: 1.5em;
+    color: black;
+    font-size: 20px;
+    border: 1px;
+    background-color: whitesmoke;
+    border-radius: 150px;
+    max-width: 500px;
+    padding: 10px;
+    margin: 16px;
+    font-weight: 500px;
+    box-shadow: 2px 2px 5px white;
+    transition: 0.2s;
+    opacity: 70%;
+}
+.sosmed a:hover
+{
+    transform: scale(1.05);
+    opacity: 100%;
+    box-shadow: 4px 4px 8px white;
+}
